@@ -1,0 +1,45 @@
+@charset "Shift_JIS";
+
+#picture{
+	text-align:center;
+}
+body{
+	color:#000;
+	font-size:small;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	text-align:left;
+}
+
+#box2{
+	position:absolute;
+	width:200px;
+	height:100%;
+	background-color:#00ffff;
+	float:left;
+	border-left:15px double #ffffff;
+	padding-top:10px;
+}
+
+#box2 h1{
+	width:200px;
+	float:left;
+	border-left:15px double #4169e1;
+}
+
+#box2{
+	margin-left:-10px;
+}
+
+#box2 A:hover{
+	color:#f00;
+}
+
+#box3{
+	padding:20px 15px 15px 250px;
+}
+footer{
+	position:relactive;
+	padding:0px 15px 15px 250px;
+	text-align:left;
+	font-size:xx-small;
+}
