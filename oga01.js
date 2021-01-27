@@ -1,0 +1,26 @@
+document.getElementById('country').onchange=function(){
+	var country=document.getElementById('country').value;
+	switch(country){
+		case'1':
+		case'2':
+		case'3':
+		case'4':
+		case'5':
+		case'6':
+		case'7':
+		case'8':
+		case'9':
+		case'10':
+		case'11':
+		case'12':
+		case'13':
+		case'14':
+		case'15':
+		alert('追加料金なく利用できます。');
+		break;
+		case'100':
+		case'101':
+		alert('申し訳ございません。利用できません。');
+		break;
+	}
+}
