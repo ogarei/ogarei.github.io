@@ -1,0 +1,39 @@
+@charset "Shift_JIS";
+#box2{
+	position:absolute;
+	width:200px;
+	height:100%;
+	background-color:#00ffff;
+	float:left;
+	border-left:15px double #ffffff;
+	padding-top:10px;
+}
+
+#box2 h1{
+	width:200px;
+	float:left;
+	border-left:15px double #4169e1;
+}
+
+#box2{
+	margin-left:-10px;
+}
+
+#box2 A:hover{
+	color:#f00;
+}
+
+#box3{
+	padding:20px 15px 15px 250px;
+}
+ul{
+	border:2px green dashed;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#country{
+	border:2px blue solid;
+	padding:15px 20px 15px 20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
