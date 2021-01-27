@@ -1,0 +1,54 @@
+@charset "Shift_JIS";
+#box2{
+	position:absolute;
+	width:200px;
+	height:100%;
+	background-color:#00ffff;
+	float:left;
+	border-left:15px double #ffffff;
+	padding-top:10px;
+}
+
+#box2 h1{
+	width:200px;
+	float:left;
+	border-left:15px double #4169e1;
+}
+
+#box2{
+	margin-left:-10px;
+}
+
+#box2 A:hover{
+	color:#f00;
+}
+
+#box3{
+	padding:20px 15px 15px 250px;
+}
+ul{
+	border:medium dotted blue;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:auto;
+}
+strong{
+	background-color:#ffff00;
+}
+#battery{
+	border:medium dotted green;
+	margin:auto;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+span{
+	text-decoration:underline solid #000;
+}
+.topic{
+	display:inline-block;
+	border:2px black solid;
+	background-color:black;
+	color:white;
+	padding:5px;
+}
